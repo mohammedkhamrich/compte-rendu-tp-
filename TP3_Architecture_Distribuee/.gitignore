@@ -1,0 +1,12 @@
+# Dépendances Node.js (Générées localement)
+node_modules/
+
+# Configuration de l'IDE IntelliJ
+.idea/
+
+# Fichiers de logs et systèmes
+npm-debug.log
+.DS_Store
+
+# Données locales de la base de données (si créées hors Docker)
+data/
