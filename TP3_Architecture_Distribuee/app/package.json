@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "consume": "node consumer.js",
+    "test": "node --check server.js && node --check consumer.js && node --check routes/commandes.js && node --check services/mongodb.js && node --check services/rabbitmq.js && node --check services/redis.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1",
+    "mongoose": "^9.3.1"
+  }
+}
